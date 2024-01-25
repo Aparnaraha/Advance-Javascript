@@ -11,6 +11,29 @@ An arrow function expression is an alternative to a traditional function express
 --> Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
 --> Arrow functions cannot use yield within their body and cannot be created as generator functions.
 
+----------Syntax-----------
+
+() => expression
+
+param => expression
+
+(param) => expression
+
+(param1, paramN) => expression
+
+() => {
+  statements
+}
+
+param => {
+  statements
+}
+
+(param1, paramN) => {
+  statements
+}
+
+
 
 */
 
